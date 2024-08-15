@@ -1,0 +1,26 @@
+body {
+    margin:3em;
+}
+.card-icon {
+    margin: 0 1em;
+}
+
+.card-icon i{
+    font-size: 3em;
+}
+.card{
+    background-color: teal;
+    color: #fff;
+    padding: 3em 0;
+    border: 0;
+    border-radius: 4em 0;
+    background: linear-gradient( to left, teal 50%, black 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all .5s;
+}
+
+.card:hover{
+    background-position: left;
+
+}
